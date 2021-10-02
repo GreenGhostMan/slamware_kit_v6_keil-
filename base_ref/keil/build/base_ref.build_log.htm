@@ -1,0 +1,611 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: PYAE SOAN AUNG, ROMROBOTICS, LIC=CRMFW-QCJE8-FY1VU-SLPPH-CNL09-N9AGQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.31.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\romrobotics\Desktop\breakoutBoardVersion6ReferenceCode\slamwarekit_reference_v6_code.20181120\slamwarekit_reference_v6_code.20181120\base_ref\keil\base_ref.uvprojx
+Project File Date:  10/02/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'base_ref'
+compiling beep.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\beep.c: 8 warnings, 0 errors
+compiling filters.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\utils/filters.h(35): warning:  #1-D: last line of file ends without a newline
+  _u32 add_to_avg_filter_u32(_u32 new_data, _u32 * filter, size_t pos, size_t size);
+..\src\utils\filters.c(80): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\utils\filters.c: 10 warnings, 0 errors
+compiling bump.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\bump.c: 8 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling util.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\utils\util.c: 8 warnings, 0 errors
+compiling battery.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\utils/filters.h(35): warning:  #1-D: last line of file ends without a newline
+  _u32 add_to_avg_filter_u32(_u32 new_data, _u32 * filter, size_t pos, size_t size);
+..\src\drv\battery.c(57): warning:  #1295-D: Deprecated declaration _battery_sample_batteryvoltage - give arg types
+  static void _battery_sample_batteryvoltage();
+..\src\drv\battery.c: 10 warnings, 0 errors
+compiling distir.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\distir.h(91): warning:  #1295-D: Deprecated declaration get_distir_value - give arg types
+  const irDistance_t *get_distir_value();
+..\src\drv\distir.c(97): warning:  #1295-D: Deprecated declaration init_dev_irdetector - give arg types
+  static _s32 init_dev_irdetector();
+..\src\drv\distir.c(98): warning:  #1295-D: Deprecated declaration heartbeat_dev_irdetector - give arg types
+  static void heartbeat_dev_irdetector();
+..\src\drv\distir.c(99): warning:  #1295-D: Deprecated declaration read_dev_irdetector - give arg types
+  static _u32 read_dev_irdetector();
+..\src\drv\distir.c: 12 warnings, 0 errors
+compiling drv_ctrlbus.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\drv_ctrlbus.c(52): warning:  #68-D: integer conversion resulted in a change of sign
+      currentNcmd = -1;
+..\src\drv\drv_ctrlbus.c(70): warning:  #68-D: integer conversion resulted in a change of sign
+      currentNcmd = -1;
+..\src\drv\drv_ctrlbus.c: 10 warnings, 0 errors
+compiling gpio.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\gpio.c: 8 warnings, 0 errors
+compiling homeir.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\irdecoder.h(55): warning:  #1-D: last line of file ends without a newline
+  void irdecoder_on_idle_tick(irdecoder_context_t * context);
+..\src\drv\homeir.c: 9 warnings, 0 errors
+compiling irdecoder.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\irdecoder.h(55): warning:  #1-D: last line of file ends without a newline
+  void irdecoder_on_idle_tick(irdecoder_context_t * context);
+..\src\drv\irdecoder.c: 9 warnings, 0 errors
+compiling led.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv/led.h(33): warning:  #1295-D: Deprecated declaration drv_led_init - give arg types
+  void drv_led_init();
+..\src\drv/led.h(34): warning:  #1295-D: Deprecated declaration drv_led_shutdown - give arg types
+  void drv_led_shutdown();
+..\src\drv\led.c: 10 warnings, 0 errors
+compiling serial_channel.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\..\infra_pub\arch\infra_stm32\net/interchip.h(96): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\drv/serial_channel.h(40): warning:  #1295-D: Deprecated declaration drv_serialchannel_getchannel - give arg types
+  infra_channel_desc_t *drv_serialchannel_getchannel();
+..\src\drv\serial_channel.c: 10 warnings, 0 errors
+compiling motor.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\motor.c: 8 warnings, 0 errors
+compiling sonar.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\utils/filters.h(35): warning:  #1-D: last line of file ends without a newline
+  _u32 add_to_avg_filter_u32(_u32 new_data, _u32 * filter, size_t pos, size_t size);
+..\src\drv/led.h(33): warning:  #1295-D: Deprecated declaration drv_led_init - give arg types
+  void drv_led_init();
+..\src\drv/led.h(34): warning:  #1295-D: Deprecated declaration drv_led_shutdown - give arg types
+  void drv_led_shutdown();
+..\src\drv\sonar.c: 11 warnings, 0 errors
+compiling watchdog.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\watchdog.h(34): warning:  #1295-D: Deprecated declaration enable_watchdog - give arg types
+  void enable_watchdog();
+..\src\drv\watchdog.h(35): warning:  #1295-D: Deprecated declaration disable_watchdog - give arg types
+  void disable_watchdog();
+..\src\drv\watchdog.h(36): warning:  #1295-D: Deprecated declaration mark_watchdog - give arg types
+  void mark_watchdog();
+..\src\drv\watchdog.c: 11 warnings, 0 errors
+compiling health_monitor.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\drv\health_monitor.c: 8 warnings, 0 errors
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling binary_config.c...
+compiling softdelay.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.c(60): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.c: 9 warnings, 0 errors
+compiling boarddrv.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\..\infra_pub\arch\infra_stm32\32f10x\boarddrv.c(33): warning:  #1295-D: Deprecated declaration _default_abort_proc - give arg types
+  static void _default_abort_proc();
+..\..\infra_pub\arch\infra_stm32\32f10x\boarddrv.c: 9 warnings, 0 errors
+compiling interchip.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\..\infra_pub\arch\infra_stm32\net/interchip.h(96): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\infra_pub\arch\infra_stm32\net\interchip.c(282): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\infra_pub\arch\infra_stm32\net\interchip.c: 10 warnings, 0 errors
+compiling usart.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\..\infra_pub\arch\infra_stm32\32f10x\usart.c: 8 warnings, 0 errors
+compiling bump_monitor.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\bump_monitor.h(37): warning:  #1-D: last line of file ends without a newline
+  float bumpermonitor_clamp_motorcmd(float motorSpd);
+..\src\bump_monitor.c(134): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\bump_monitor.c(44): warning:  #550-D: variable "_lastHitTs"  was set but never used
+  static _u32 _lastHitTs;
+..\src\bump_monitor.c: 11 warnings, 0 errors
+compiling hwconf.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\src\hwconf.c: 8 warnings, 0 errors
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling main.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\..\infra_pub\arch\infra_stm32\net/interchip.h(96): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\drv/serial_channel.h(40): warning:  #1295-D: Deprecated declaration drv_serialchannel_getchannel - give arg types
+  infra_channel_desc_t *drv_serialchannel_getchannel();
+..\src\drv/distir.h(91): warning:  #1295-D: Deprecated declaration get_distir_value - give arg types
+  const irDistance_t *get_distir_value();
+..\src\drv/watchdog.h(34): warning:  #1295-D: Deprecated declaration enable_watchdog - give arg types
+  void enable_watchdog();
+..\src\drv/watchdog.h(35): warning:  #1295-D: Deprecated declaration disable_watchdog - give arg types
+  void disable_watchdog();
+..\src\drv/watchdog.h(36): warning:  #1295-D: Deprecated declaration mark_watchdog - give arg types
+  void mark_watchdog();
+..\src\drv/led.h(33): warning:  #1295-D: Deprecated declaration drv_led_init - give arg types
+  void drv_led_init();
+..\src\drv/led.h(34): warning:  #1295-D: Deprecated declaration drv_led_shutdown - give arg types
+  void drv_led_shutdown();
+..\src\drv/drv_ctrlbus.h(33): warning:  #1295-D: Deprecated declaration init_drv_ctrlbus - give arg types
+  void init_drv_ctrlbus();
+..\src\drv/drv_ctrlbus.h(34): warning:  #1295-D: Deprecated declaration clear_drv_ctrlbus_ncmd - give arg types
+  void clear_drv_ctrlbus_ncmd();
+..\src\bump_monitor.h(37): warning:  #1-D: last line of file ends without a newline
+  float bumpermonitor_clamp_motorcmd(float motorSpd);
+..\src\main.c: 19 warnings, 0 errors
+compiling request_handler.c...
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(78): warning:  #1295-D: Deprecated declaration board_abort_mode - give arg types
+  void board_abort_mode();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(80): warning:  #1295-D: Deprecated declaration getms - give arg types
+  uint32_t getms();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(81): warning:  #1295-D: Deprecated declaration getus - give arg types
+  uint64_t getus();
+..\..\infra_pub\arch\infra_stm32\32f10x\boardfunc.h(169): warning:  #1295-D: Deprecated declaration board_get_temperature - give arg types
+  uint16_t board_get_temperature();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(33): warning:  #1295-D: Deprecated declaration softdelay_calibrate - give arg types
+  void softdelay_calibrate();
+..\..\infra_pub\arch\infra_stm32\32f10x\softdelay.h(34): warning:  #1-D: last line of file ends without a newline
+  void _delay_us(volatile uint32_t us);
+..\..\infra_pub\arch\infra_stm32\rpstm32.h(111): warning:  #1-D: last line of file ends without a newline
+  #endif // #ifndef RPSTM32_HEADER_H
+..\src\common/common.h(70): warning:  #1295-D: Deprecated declaration init_board - give arg types
+  _s32 init_board();
+..\..\infra_pub\arch\infra_stm32\net/interchip.h(96): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\drv/distir.h(91): warning:  #1295-D: Deprecated declaration get_distir_value - give arg types
+  const irDistance_t *get_distir_value();
+..\src\drv/drv_ctrlbus.h(33): warning:  #1295-D: Deprecated declaration init_drv_ctrlbus - give arg types
+  void init_drv_ctrlbus();
+..\src\drv/drv_ctrlbus.h(34): warning:  #1295-D: Deprecated declaration clear_drv_ctrlbus_ncmd - give arg types
+  void clear_drv_ctrlbus_ncmd();
+..\src\bump_monitor.h(37): warning:  #1-D: last line of file ends without a newline
+  float bumpermonitor_clamp_motorcmd(float motorSpd);
+..\src\request_handler.c(419): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\request_handler.c: 14 warnings, 0 errors
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=27368 RO-data=728 RW-data=316 ZI-data=4180  
+FromELF: creating hex file...
+".\build\base_ref.axf" - 0 Error(s), 238 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_base_ref
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
